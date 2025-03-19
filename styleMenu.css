@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: serif;
+    background-color: #fde8e9;
+    text-align: center;
+}
+
+nav {
+    background-color: #ab95a4;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 40 15px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #d1c9df;
+}
