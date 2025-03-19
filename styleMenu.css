@@ -11,21 +11,24 @@ nav {
 
 nav ul {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     list-style: none;
 }
 
-nav ul li {
+/* nav ul li {
     margin: 40 15px;
-}
-
-nav ul li a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    padding: 10px 20px;
-    display: block;
 }
 
 nav ul li a:hover {
     background-color: #d1c9df;
 }
+    
+*/
+nav ul li a {
+    color: rgb(27, 0, 0);
+    text-decoration: none;
+    padding: 0px 20px;
+    display: block;
+}
+
+

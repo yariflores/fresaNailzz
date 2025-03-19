@@ -1,12 +1,12 @@
 body{
-    background-color:#eedceb;
+    background-color:#FAEADE;
 }
 
 header {
-    background-color: #ccc8d4;
+    background-color: #FADAE0;
     color: white;
     padding: 20px 0;
-    text-align: center;
+    text-align: left;
 }
 
 header h1 {
