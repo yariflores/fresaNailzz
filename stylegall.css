@@ -11,7 +11,7 @@ body{
     font-size: 400%;
     font-family:"Dancing Script", cursive;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight:weight;
     font-style: normal;
     
 }
