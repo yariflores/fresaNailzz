@@ -1,21 +1,13 @@
 body {
-    margin: 0;
-    font-family: serif;
-    background-color: #fde8e9;
-    text-align: center;
+   background-image: url(menuimg.png);
+   background-repeat: no-repeat;
 }
 
-.navbar {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    display: flex;
-    width: 100%;
-    justify-content: left;
-    padding: 20px;
-    color: black;
-    
+.logo{
+   
 }
+
+
 
 
 
