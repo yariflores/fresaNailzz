@@ -3,9 +3,18 @@ body {
    background-repeat: no-repeat;
 }
 
-.logo{
-   
+.logo{   
+   position: absolute;
+   top: -29px;
+   left: -15px;
 }
+.logo2{
+   position: absolute;
+   top: 121px;
+   left: 175px;
+}
+
+
 
 
 
