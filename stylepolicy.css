@@ -3,3 +3,41 @@ body{
     background-repeat: no-repeat;
 }
 
+
+.bookingPolicy{
+    width: 300px;
+    margin: auto;
+    background-color: #FADAE0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    
+}
+
+
+.latePolicy{
+    width: 300px;
+    margin: auto;
+    background-color: #FADAE0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+
+    
+}
+
+.gracePolicy{
+    width: 300px;
+    margin: auto;
+    background-color: #FADAE0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    
+}
