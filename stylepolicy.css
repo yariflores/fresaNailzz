@@ -3,6 +3,17 @@ body{
     background-repeat: no-repeat;
 }
 
+.policylogo{
+    position: absolute;
+    top: 100px;
+    right: 70;
+}
+
+.info{
+    position: absolute;
+    bottom: -450px;
+    right:40px;
+}
 
 .bookingPolicy{
     width: 300px;
