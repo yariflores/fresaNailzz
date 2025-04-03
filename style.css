@@ -1,18 +1,51 @@
 body{
-    background-color:#FAEADE;
+    background-image: url(newhome.png);
+    background-repeat: no-repeat;
 }
 
-header {
-    background-color: #FADAE0;
-    color: white;
-    padding: 20px 0;
-    text-align: left;
+.fresa{
+    position: absolute;
+    top: 10px;
+    left: -21px;
+    width: 450px;
 }
 
-
-.container2{
-    background-color: #FADAE0;
+.nailz{
+    position: absolute;
+    top: 230px;
+    left: 200px; 
+    width: 200px;
 }
+
+.button{
+    position: absolute;
+    right:4px;
+    top: 43%;
+}
+
+.button1{
+    background-color: #F3AFCA;
+    border: none;
+    color: rgb(39, 25, 8);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 7x 9px 0 #ff8da4, 0 1px 5px 0 #ff8da4;
+}
+
+.button1:hover{
+    background-color: #ff8da4;
+}
+
 
 
 
