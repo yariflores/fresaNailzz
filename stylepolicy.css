@@ -17,7 +17,16 @@ body{
 
 .button1{
     background-color: #F3AFCA;
-    border:#E66699 ;
+    border:10;
+    border-color: #f50a68e7;
+    color: rgb(39, 25, 8);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
     
     
     border-radius: 12px;
