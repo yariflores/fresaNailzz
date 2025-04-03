@@ -1,37 +1,67 @@
 body {
    background-image: url(menuimg.png);
    background-repeat: no-repeat;
+   font-family: "Inconsolata", monospace;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-style: normal;
+   font-variation-settings:
+   "wdth" 150;
+   font-size: 26px;
 }
 
 .logo{   
    position: absolute;
    top: -29px;
    left: -15px;
+   width: 350px;
 }
 .logo2{
    position: absolute;
-   top: 121px;
-   left: 175px;
+   top: 114px;
+   left: 245px;
+   width: 130px;
 }
+
+.logoig{
+   position: absolute;
+   top: 754px;
+   left: -20px;
+   width: 100px;
+}
+
 
 ul {
    list-style-type: none;
-    margin: 0;
-    padding: 0; 
-}
-
-
+   margin: 0;
+   padding: 0;
+   width: 200px;
+   background-color: #f1f1f100;
+   position: absolute;
+   top: 200px;
+   left: 205px;
+ }
+ 
  li a {
    display: block;
-   color: #000;
-   padding: 10px 20px;
+   color: #000000;
+   padding: 30px 16px;
    text-decoration: none;
-   font-size: 18px;
-   font-weight: bold;
-   
  }
+ 
+ li {
+   text-align: right;
+ }
+ 
+ li:last-child {
+   border-bottom: none;
+ }
+ 
 
-
+ li a:hover{
+   background-color: #faf7f800;
+   color: rgb(162, 33, 97);
+ }
 
 
 
