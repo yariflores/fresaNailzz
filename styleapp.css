@@ -1,0 +1,27 @@
+body{
+    background-image: url(newapp.png);
+    background-repeat: no-repeat;
+}
+
+.fresa{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 390px;
+}
+
+.nailz{
+    position: absolute;
+    top: 150px;
+    left: 190px; 
+    width: 150px;
+}
+
+.barmenu{
+    position: absolute;
+    top: 5px;
+    left: 290px;
+    width: 40px;
+}
+
+
