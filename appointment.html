@@ -14,16 +14,40 @@
     <img src="image.png" alt="logo2"  class="nailz">
     <img src="menubar.png" alt="bar menu"  class="barmenu">
 
-    <div>
-        <form action="">
-            <label for="fname">First Name:</label>
+    <div class="container-form">
+        <form action="#">
+            <h2 class="appoint">APPOINTMENT</h2>
+
+            <div class="form-field">
+                <p>NAME</p> 
+                <input type="text" placeholder="NAME">
+            </div>
+            <div class="form-field">
+                <p>EMAIL</p>
+                <input type="email" placeholder="EMAIL">
+            </div>
+            <div class="form-field">
+                <p>DATE</p>
+                <input type="date" placeholder="DATE">
+            </div>
+            <div class="form-field">
+                <p>TIME</p>
+                <input type="time" placeholder="TIME">
+            </div>
+            <div class="form-field">
+                <p># of peolpe</p>
+                <select name="select" id="">
+                    <option value="1">1 person</option>
+                    <option value="2">2 person</option>
+                    <option value="3">3 person</option>
+                </select>
+            </div>
             <br>
-            <input type="text" id="fname" name="fname" >
-
-
+            <button class="btn"> SUBMIT</button>
 
         </form>
     </div>
+
 
 
     

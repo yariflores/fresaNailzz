@@ -25,3 +25,22 @@ body{
 }
 
 
+.container-form{
+    
+    margin: 0 auto;
+    color: #fc5d7d;
+}
+/*
+form{
+    display:grid;
+    grid-row-gap: 10px;
+}
+*/
+.form-field{
+    display: flex;
+    justify-content:space-around
+}
+
+input,select{
+    pad: 5px 5px;
+}
