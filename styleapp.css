@@ -1,6 +1,9 @@
 body{
-    background-image: url(newapp.png);
-    background-repeat: no-repeat;
+    background-color: #FAEADE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
 .fresa{
@@ -24,23 +27,36 @@ body{
     width: 40px;
 }
 
-
-.container-form{
-    
-    margin: 0 auto;
-    color: #fc5d7d;
-}
-/*
-form{
-    display:grid;
-    grid-row-gap: 10px;
-}
-*/
-.form-field{
-    display: flex;
-    justify-content:space-around
+.booking-form{
+    background-color: #F3AFCA;
+    border-radius: 20px;
+    padding: 10px 20px 10px 50px;
+    width: 150%;
+    box-shadow: 0 5px 30px #e077a1;
 }
 
-input,select{
-    pad: 5px 5px;
+.booking-form h2{
+    margin-bottom: 20px;
+    color: #f3327f;
+    font-weight: 600;
+    font-size: 200%;
 }
+
+.input-group{
+    position:relative;
+    margin-bottom: 20px;
+}
+
+.input-group input{
+    width: 100%;
+    padding: 15;
+    border-radius: 10%;
+    bor
+    box-shadow: 0 5px 20px #fc94bd;
+    color: #707070;
+
+}
+
+
+
+
