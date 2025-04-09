@@ -28,10 +28,12 @@ body{
 }
 
 .booking-form{
+    position: absolute;
+    top: 300px;
     background-color: #F3AFCA;
     border-radius: 20px;
     padding: 50px;
-    width: 100%;
+    width: 50%;
     box-shadow: 0 5px 30px #e077a1;
 }
 
