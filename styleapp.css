@@ -1,5 +1,5 @@
 body{
-    background-color: #FAEADE;
+    background-color: #fadef1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,11 +30,11 @@ body{
 .booking-form{
     position: absolute;
     top: 300px;
-    background-color: #F3AFCA;
+    background-color: #fcc7dc;
     border-radius: 20px;
     padding: 50px;
     width: 50%;
-    box-shadow: 0 5px 30px #e077a1;
+    box-shadow: 0 5px 30px #fceef4;
 }
 
 .booking-form h2{
