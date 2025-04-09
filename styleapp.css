@@ -30,8 +30,8 @@ body{
 .booking-form{
     background-color: #F3AFCA;
     border-radius: 20px;
-    padding: 10px 20px 10px 50px;
-    width: 150%;
+    padding: 50px;
+    width: 100%;
     box-shadow: 0 5px 30px #e077a1;
 }
 
@@ -51,10 +51,9 @@ body{
     width: 100%;
     padding: 15;
     border-radius: 10%;
-    bor
+    border-color: #f3327f;
     box-shadow: 0 5px 20px #fc94bd;
     color: #707070;
-
 }
 
 
