@@ -1,5 +1,5 @@
 body{
-    background-image: url(newhome.png);
+    background-image: url(newhome1.png);
     background-repeat: no-repeat;
 }
 
@@ -20,13 +20,13 @@ body{
 .button{
     position: absolute;
     right:4px;
-    top: 43%;
+    top: 35%;
 }
 
 .button1{
-    background-color: #F3AFCA;
+    background-color: #FBDFDD;
     border: none;
-    color: rgb(39, 25, 8);
+    color: #f778ab;
     padding: 20px;
     text-align: center;
     text-decoration: none;
@@ -39,13 +39,10 @@ body{
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    box-shadow: 0 7x 9px 0 #ff8da4, 0 1px 5px 0 #ff8da4;
+    box-shadow: 3px 2px 12px  #ffffff, 0 1px 5px 0 #ff0033;
 }
 
 .button1:hover{
-    background-color: #ff8da4;
+    background-color: #f5e8e8;
 }
-
-
-
 
