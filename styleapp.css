@@ -31,7 +31,7 @@ body{
 .booking-form{
     position: absolute;
     top: 500px;
-    background-color: #F2BACC;
+    background-color: #fabccb;
     border-radius: 20px;
     padding: 50px;
     width: 50%;
@@ -39,8 +39,9 @@ body{
 }
 
 .booking-form h2{
+    text-align: center;
     margin-bottom: 20px;
-    color: #FBDCDE;
+    color: hsl(4, 100%, 95%);
     font-weight: 600;
     font-size: 200%;
 }
@@ -54,8 +55,8 @@ body{
     width: 100%;
     padding: 15;
     border-radius: 10%;
-    border-color: #e0abc0;
-    box-shadow: 0 5px 20px #f1dae4;
+    border-color: #fffaf9;
+    box-shadow: 0 5px 20px #e4d9de;
     color: #707070;
 }
 

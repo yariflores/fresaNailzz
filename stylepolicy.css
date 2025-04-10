@@ -1,5 +1,5 @@
 body{
-    background-image: url(newpolicy.png);
+    background-image: url(newpolicy2.png);
     background-repeat: no-repeat;
     font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
@@ -22,9 +22,9 @@ body{
 }
 
 .button1{
-    background-color: #F3AFCA;
+    background-color: #FBDFDD;
     border: none;
-    color: rgb(39, 25, 8);
+    color: #f778ab;
     padding: 20px;
     text-align: center;
     text-decoration: none;
@@ -37,11 +37,11 @@ body{
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    box-shadow: 0 7x 9px 0 #ff8da4, 0 1px 5px 0 #ff8da4;
+    box-shadow: 3px 2px 12px  #ffffff, 0 1px 5px 0 #ff0033;
 }
 
 .button1:hover{
-    background-color: #ff8da4;
+    background-color: #f5e8e8;
 }
 
 .info{
@@ -53,7 +53,7 @@ body{
 .bookingPolicy{
     width: 300px;
     margin: auto;
-    background-color: #FADAE0;
+    background-color: #F4B4BB;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -67,7 +67,7 @@ body{
 .latePolicy{
     width: 300px;
     margin: auto;
-    background-color: #FADAE0;
+    background-color: #F4B4BB;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -81,7 +81,7 @@ body{
 .gracePolicy{
     width: 300px;
     margin: auto;
-    background-color: #FADAE0;
+    background-color: #F4B4BB;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -94,7 +94,7 @@ body{
 .reminderPolicy{
     width: 300px;
     margin: auto;
-    background-color: #FADAE0;
+    background-color: #F4B4BB;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
