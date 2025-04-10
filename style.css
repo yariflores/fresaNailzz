@@ -5,21 +5,20 @@ body{
 
 .fresa{
     position: absolute;
-    top: 10px;
+    top: -25px;
     left: -21px;
     width: 450px;
 }
 
 .nailz{
     position: absolute;
-    top: 230px;
+    top: 180px;
     left: 200px; 
     width: 200px;
 }
 
 .button{
     position: absolute;
-    right:4px;
     top: 35%;
 }
 
