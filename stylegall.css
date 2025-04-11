@@ -4,13 +4,40 @@ body{
 
 }
 
-.name{
-    padding: 30 90;
-    color: rgb(46, 7, 7);
-    font-size: 400%;
-    font-family:"Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-weight:weight;
-    font-style: normal;
-    
+.logogallery{ 
+    position: absolute;
+    top: 120px;
+    left: 23px;
+    width: 380px;
 }
+
+.button{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+
+.button1{
+    background-color: #FBDFDD;
+    border: none;
+    color: #f778ab;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 3px 2px 12px  #ffffff, 0 1px 5px 0 #ff0033;
+}
+
+.button1:hover{
+    background-color: #f5e8e8;
+}
+
+
