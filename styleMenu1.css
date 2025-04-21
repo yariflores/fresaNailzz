@@ -1,0 +1,78 @@
+body {
+    background-image: url(imgmenu1.png);
+    background-repeat: no-repeat;
+    font-family: "Inconsolata", monospace; /* Ensure you're including the font properly */
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 150;
+    font-size: 26px;
+}
+
+.logo {   
+    position: absolute;
+    top: -29px;
+    left: -15px;
+    width: 350px;
+}
+
+.logo2 {
+    position: absolute;
+    top: 114px;
+    left: 245px;
+    width: 130px;
+}
+
+.logoig {
+    position: absolute;
+    top: 754px;
+    left: -20px;
+    width: 100px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgba(241, 241, 241, 1); /* Fixed to no transparency */
+    position: absolute;
+    top: 200px;
+    left: 190px;
+}
+
+li {
+    text-align: right;   
+}
+
+li a {
+    display: block;
+    color: #000000;
+    padding: 30px 16px;
+    text-decoration: none;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li a:hover {
+    background-color: rgba(250, 247, 248, 1); /* Opaque color on hover */
+    color: rgb(162, 33, 97);
+}
+
+@media screen and (min-width: 1024px) {
+    .logo {   
+        top: -29px;
+        left: 500px;
+        width: 550px;
+    }
+    
+    .logo2 {
+        top: 204px;
+        left: 705px;
+        width: 400px;
+    }
+
+    /* No need to redefine logoig if not changing */
+}
