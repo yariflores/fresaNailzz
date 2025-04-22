@@ -9,8 +9,6 @@ body{
 .fresa{
     position: relative;
     bottom: 330px;
-
-    
 }
 
 .nailz{
@@ -72,17 +70,27 @@ body{
 @media screen and (min-width: 1024px){
     .fresa{
         position: relative;
-        bottom: 330px;
-        right: 530px;
+        bottom: 270px;
+        right: 300px;
         width: 600px; 
     }
 
     .nailz{
         position: relative;
-        left: -850px;
-        bottom: 220px;
+        left: -785px;
+        bottom: 200px;
         width: 300px;
     }
+
+    .barmenu{
+        position: relative;
+        left: 8%;
+        top: -120%;
+        
+    }
+    
+
+
 
     
 
