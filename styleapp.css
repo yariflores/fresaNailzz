@@ -1,6 +1,5 @@
 body{
     background-image: url(appimg.png);
-    background-color: #fadef1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,21 +7,20 @@ body{
 }
 
 .fresa{
-    position: absolute;
-    top: -20px;
-    left: -20px;
-    width: 490px;
+    position: relative;
+    bottom: 330px;
+
+    
 }
 
 .nailz{
-    position: absolute;
-    top: 180px;
-    left: 190px; 
-    width: 250px;
+    position: relative;
+    bottom: 380px;
+    left: 250px;
 }
 
 .barmenu{
-    position: absolute;
+    position: fixed;
     top: 310px;
     left: 338px;
     width: 110px;
@@ -68,6 +66,28 @@ body{
     border-color: #e0abc0;
     box-shadow: 0 5px 20px #f3ccdd;
     color: #f778ab;
+}
+
+
+@media screen and (min-width: 1024px){
+    .fresa{
+        position: relative;
+        bottom: 330px;
+        right: 530px;
+        width: 600px; 
+    }
+
+    .nailz{
+        position: relative;
+        left: -850px;
+        bottom: 220px;
+        width: 300px;
+    }
+
+    
+
+
+    
 }
 
 
