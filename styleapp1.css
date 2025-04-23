@@ -67,24 +67,19 @@ body{
 }
 
 
-@media screen and (min-width: 768px){
-    .fresa{
-        position: relative;
-        bottom:auto;
-        right: auto;
-        width: 600px; 
+
+@media screen and (min-width: 900px) {
+    .fresa {
+        position: absolute;
+        top: -3%;
+        width: 30%;
+        left: 35%;
     }
 
-    .nailz{
-        position: relative;
-        right: auto;
-        bottom: 300px;
-        width: 300px;
+    .nailz {
+        position: absolute;
+        top: 25%;
+        width: 15%;
+        left: 41%; /* review if this is too much space reserved */
     }
-
-
-
-    
 }
-
-
