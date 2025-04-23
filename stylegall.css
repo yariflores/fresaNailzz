@@ -40,4 +40,32 @@ body{
     background-color: #f5e8e8;
 }
 
+.gallery-nails{
+    width: 800px;
+    display: flex;
+    overflow-x: scroll;
+}
 
+.gallery-nails div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px; 
+    padding: 10px;
+    flex: none;
+}
+
+.gallery div img{
+    width: 100%;
+}
+
+.gallery-nails :: ::-webkit-scrollbar{
+    display: none;
+}
+
+.gallery-nails-wrap{
+    display: flex;
+align-items: center;
+justify-content: center;
+
+}
