@@ -1,9 +1,62 @@
 body{
     background-image: url(galleryimg1.png);
     background-repeat: no-repeat;
+    margin: 0;
+    margin-bottom: 25rem;
+}
+
+.wrapper{
+    border: 1px solid black;
+    width:90% ;
+    max-width: 1536px;
+    margin-inline: auto;
+    position: relative;
+    height: 100px;
+    margin-top: 5rem; 
+    overflow: hidden;
 
 }
 
+
+@keyframes scrollLeft {
+    to {
+        left: -200px;
+    }
+}
+
+
+.item {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(236, 152, 208);
+    border-radius: 6px;
+    position: absolute;
+    left: 100%;
+    animation-name: scrollLeft ;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: -15s;
+}
+
+.item1{
+    animation-delay: calc(20/4 *(4 - 1)* -1);
+}
+
+.item2{
+    animation-delay:calc(20/4 *(4 - 2)) ;
+}
+
+.item3{
+    animation-delay:calc(20/4 *(4 - 3)* -1) ;
+}
+
+.item4{
+    animation-delay:calc(20/4 *(4 - 4)* -1) ;
+}
+
+
+/**
 .logogallery{ 
     position: absolute;
     top: 120px;
@@ -69,3 +122,16 @@ align-items: center;
 justify-content: center;
 
 }
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, min-width(300px, 1fr));
+}
+
+*/
+
+
+
+

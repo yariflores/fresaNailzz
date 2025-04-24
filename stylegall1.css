@@ -1,0 +1,61 @@
+body {
+    background-image: url(galleryimg1.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    margin-bottom: 25rem;
+}
+
+.wrapper {
+    /**width: 90%;
+    max-width: 1536px;*/
+    margin-inline: auto;
+    position: relative;
+    height: 100px;
+    margin-top: 5rem; 
+    overflow: hidden;
+    mask-image: linear-gradient(
+        to right, 
+        rgba(0,0,0,0,),
+        rgba(0,0,0,1,) 20%,
+        rgba(0,0,0,1,)80%,
+        rgba(0,0,0,0,),
+    );
+}
+
+@keyframes scrollLeft {
+    0% {
+        left: 100%;
+    }
+    100% {
+        left: -200px; /* Adjust according to item width */
+    }
+}
+
+.item {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(236, 152, 208);
+    border-radius: 6px;
+    position: absolute;
+    left: max(calc(200px *8),100%);
+    animation-name: scrollLeft ;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.item1 {
+    animation-delay: 0s;
+}
+
+.item2 {
+    animation-delay: 5s; /* Offset delay for staggered effect */
+}
+
+.item3 {
+    animation-delay: 10s; /* Offset delay for staggered effect */
+}
+
+.item4 {
+    animation-delay: 15s; /* Offset delay for staggered effect */
+}
