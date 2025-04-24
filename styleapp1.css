@@ -18,10 +18,10 @@ body{
 }
 
 .barmenu{
-    position: fixed;
-    top: 310px;
-    left: 338px;
-    width: 110px;
+    position: relative;
+    bottom: 200px;
+    width: 150px;
+    left: 180px;
 }
 
 .booking-form{
@@ -81,5 +81,12 @@ body{
         top: 25%;
         width: 15%;
         left: 41%; /* review if this is too much space reserved */
+    }
+
+    .barmenu{
+        position: absolute;
+        left: 90%;
+        top: 35%;
+       
     }
 }
