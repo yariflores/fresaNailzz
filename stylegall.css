@@ -1,80 +1,49 @@
-body{
-    background-image: url(galleryimg1.png);
+body {
+    background-image: url(galleryimg2.png);
     background-repeat: no-repeat;
     margin: 0;
     margin-bottom: 25rem;
 }
 
-.wrapper{
-    border: 1px solid black;
-    /*width:90% ;*/
-    max-width: 1536px;
-    margin-inline: auto;
-    position: relative;
-    height: 300px;
-    margin-top: 5rem; 
-    overflow: hidden;
-
+.logogallery { 
+    position: absolute;
+    top: 120px;
+    left: 2px;
+    width: 440px;
 }
 
-
-@keyframes scrollLeft {
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
     to {
-        left: -200px;
+        transform: translateX(-100%);
     }
 }
 
-
-.item {
-    width: 200px;
-    height: 200px;
-    /*background-color: rgb(236, 152, 208);*/
-    border-radius: 50px;
-    position: absolute;
-    left: 100%;
-    animation-name: scrollLeft ;
-    animation-duration: 20s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-delay: -15s;
+.logos {
+    overflow: hidden;
+    white-space: nowrap; 
+    padding: 600px 0;
 }
 
-.item1{
-    animation-delay: calc(20/4 *(4 - 1)* -1);
+.logos-slide {
+    display: inline-block;
+    animation: 10s slide infinite linear;
 }
 
-.item2{
-    animation-delay:calc(20/4 *(4 - 2)) ;
-}
-
-.item3{
-    animation-delay:calc(20/4 *(4 - 3)* -1) ;
-}
-
-.item4{
-    animation-delay:calc(20/4 *(4 - 4)* -1) ;
-}
-
-
-/**
-.logogallery{ 
-    position: absolute;
-    top: 120px;
-    left: 23px;
-    width: 380px;
-}
-
-.button{
+.button {
     position: absolute;
     top: 40%;
     left: 50%;
+    transform: translateX(-50%);
 }
 
-.button1{
+.button1 {
     background-color: #FBDFDD;
     border: none;
     color: #f778ab;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -82,56 +51,86 @@ body{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 12px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    box-shadow: 3px 2px 12px  #ffffff, 0 1px 5px 0 #ff0033;
+    box-shadow: 3px 2px 12px #ffffff, 0 1px 5px 0 #ff0033;
 }
 
-.button1:hover{
+.button1:hover {
     background-color: #f5e8e8;
 }
 
-.gallery-nails{
-    width: 800px;
-    display: flex;
-    overflow-x: scroll;
-}
-
-.gallery-nails div{
-    width: 100%;
+.container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 20px; 
-    padding: 10px;
-    flex: none;
+    place-items: center;
+    margin-inline: 1.5rem;
+    padding-block: 5rem;
 }
 
-.gallery div img{
-    width: 100%;
-}
-
-.gallery-nails :: ::-webkit-scrollbar{
-    display: none;
-}
-
-.gallery-nails-wrap{
-    display: flex;
-align-items: center;
-justify-content: center;
-
-}
-
-
-
-.grid {
+.card__container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, min-width(300px, 1fr));
+    row-gap: 3.5rem;
 }
 
-*/
+.card__article {
+    position: relative;
+    overflow: hidden;
+}
 
+/* Image styling */
+.card__img {
+    width: 350px;
+    height: 350px;
+    border-radius: 1.5rem;
+}
 
+/* Data overlay styling */
+.card__data {
+    width: 280px;
+    background-color: var(--container-color);
+    padding: 1.5rem 2rem;
+    box-shadow: 0 8px 24px hsla(340, 62%, 58%, 0.8);
+    border-radius: 1rem;
+    position: absolute;
+    bottom: -9rem;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
 
+/* Corrected typo in class name */
+.card__description {
+    display: block;
+    font-size: var(--small-font-size);
+    margin-bottom: 0.25rem;
+}
 
+/* Button styles */
+.card__button {
+    text-decoration: none;
+    font-size: var(--small-font-size);
+    font-weight: 500;
+    color: #f778ab;
+}
+
+.card__button:hover {
+    text-decoration: underline;
+}
+
+/* Show data overlay on hover */
+.card__article:hover .card__data {
+    opacity: 1;
+    bottom: 1rem; /* Optional: animate position if needed */
+    /* You can animate movement if desired: transform: translateY(-1rem); */
+}
+
+/* Keyframes for show-data animation - optional if you want movement */
+@keyframes show-data {
+    50% {
+        transform: translateY(-11rem);
+    }
+    100% {
+        transform: translateY(-20rem);
+    }
+}
+
+/* If you want to animate overflow or other properties, define keyframes accordingly */

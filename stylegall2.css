@@ -65,87 +65,90 @@ body {
     background-color: #f5e8e8;
 }
 
-.container{
+.container {
     display: grid;
     place-items: center;
     margin-inline: 1.5rem;
     padding-block: 5rem;
 }
 
-
-.card__container{
+.card__container {
     display: grid;
     row-gap: 3.5rem;
 }
 
-.card__article{
+.card__article {
     position: relative;
+    overflow: hidden;
 }
 
-.card__img{
-    width:350px;
-    height:350px;
+/* Image styling */
+.card__img {
+    width: 350px;
+    height: 350px;
     border-radius: 1.5rem;
 }
 
-
-.card__data{
+/* Data overlay styling */
+.card__data {
     width: 280px;
-    background-color: var(--container-color);
+    background-color:#eeb4bc;  /*   var(--container-color)*/
     padding: 1.5rem 2rem;
-    box-shadow: 0 8px 24px hsla(0,0%,0%,.80) ;
+    box-shadow: 0 8px 24px hsla(340, 62%, 58%, 0.8);
     border-radius: 1rem;
     position: absolute;
-    bottom: -2rem;
-    left: 0;
-    right: 0;
-    margin-inline: auto;
-   /* opacity: 0; */
-    transition: opacity 1s 1s;
-
+    bottom: -9rem;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-.card__desription {
+.card__description {
     display: block;
     font-size: var(--small-font-size);
-    margin-bottom: .25rem;
+    margin-bottom: 0.25rem;
+}
+
+/* Button styles */
+.card__button {
+    text-decoration: none;
+    font-size: var(--small-font-size);
+    font-weight: 500;
+    color: #f778ab;
+}
+
+.card__button:hover {
+    text-decoration: underline;
+}
+
+/* Show data overlay on hover */
+.card__article:hover .card__data {
+    opacity: 1;
+    bottom: 1rem; /* Optional: animate position if needed */
+    /* You can animate movement if desired: transform: translateY(-1rem); */
+}
+
+.card__article:hover{
+    animation: remove-overflow 6s forwards;
 }
 
 
 
-
-
-@media screen and (min-width: 900px) {
-    /*
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+/* Keyframes for show-data animation - optional if you want movement */
+@keyframes show-data {
+    50% {
+        transform: translateY(-11rem);
     }
-
-    img-wrapper {
-        position:relative ;
-        overflow: hidden;
-        
+    100% {
+        transform: translateY(-20rem);
     }
-
-    .img-wrapper > img {
-        display: block;
-        aspect-ratio: 1 / 1;
-        object-fit: cover;
-        object-position: center;
-
-    }
-
-    .img-wrapper > .content {
-        position: absolute;
-        inset: 0;
-        font-size: 2rem;
-        padding: 1rem;
-        background:  rgba(255,255,255,.4);
-        display: flex;
-        justify-content: center;
-    }
-
-
-*/
 }
+
+
+@keyframes remove-overflow{
+    to{
+        overflow: initial;
+    }
+}
+
