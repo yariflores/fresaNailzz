@@ -11,12 +11,41 @@
 
 
 <body>
-    
-        <img src="fresaNailz.png" alt="logo" class="fresa">
-        <img src="image.png" alt="logo2"  class="nailz">
+
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="20px" fill="#f44873"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+           <!-- <li><a href="home.html">1</a></li> --> 
+            <li><a href="gallery.html">gallery</a></li>
+            <li><a href="policy.html">policy</a></li>
+            <li><a href="appointment.html">appointment</a></li>
+        </ul>
+        <ul>
+            <li><img src="fresaNailz.png" alt="" style="height: 120%; width: 120%;"></li>
+             <!-- <li><a href="home.html">1</a></li> --> 
+            <li class="hideOnMobile"><a href="gallery.html">Gallery</a></li>
+            <li class="hideOnMobile"><a href="policy.html">policy</a></li>
+            <li class="hideOnMobile"><a href="appointment.html">appointment</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="800px" viewBox="0 -960 960 960" width="35px" fill="#f44873"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+
+
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+
+
+    </script>
 
         <div class="button">
-            <button class="button1">Book Your Appointment</button>
+            <button class="button1">Book<br> Appointment</button>
         </div>
     
 
