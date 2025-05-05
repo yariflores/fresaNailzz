@@ -6,7 +6,8 @@
 
 body{
     min-height: 100vh;
-    background-color: #f5e8e8;
+    background-image: url(homepage.png);
+    background-repeat: no-repeat;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
