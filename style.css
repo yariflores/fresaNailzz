@@ -1,13 +1,12 @@
 *{
     margin:0;
     padding: 0;
-
 }
 
 
 body{
     min-height: 100vh;
-    background-color: rgb(255, 190, 190);
+    background-color: #f5e8e8;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
@@ -23,6 +22,8 @@ nav ul{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    
+    
 }
 
 nav li{
@@ -36,11 +37,11 @@ nav a{
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: rgb(238, 24, 103);
+    color: rgb(247, 99, 153);
 }
 
 nav a:hover{
-    background-color: #eea7ad;
+    background-color: #ffacc5;
 }
 
 
@@ -96,30 +97,30 @@ nav li:first-child{
 
 
 .button{
-    position: absolute;
+    position: sticky;
     top: 35%;
 }
 
 .button1{
-    background-color: #FBDFDD;
+    background-color: #ffcdda;
     border: none;
-    color: #f778ab;
+    color: rgb(247, 99, 153);
     padding: 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 13px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 12px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    box-shadow: 3px 2px 12px  #ffffff, 0 1px 5px 0 #ff0033;
+    border-radius: 18px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    box-shadow: 3px 2px 12px  #e5a5b5, 0 1px 5px 0 #ffb6c5;
 }
 
 .button1:hover{
-    background-color: #f5e8e8;
+    background-color: #ffacc5;
 }
 
