@@ -5,7 +5,9 @@
 
 
 body{
-    background-color: #fcdce5;
+    background-image: url(homeimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
