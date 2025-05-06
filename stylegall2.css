@@ -29,13 +29,14 @@ nav ul{
 }
 
 nav li{
-    height: 50px;
+    height: 65px;
+    font-size: large;
 }
 
 
 nav a{
     height: 100%;
-    padding: 0 30px ;
+    padding: 0 40px ;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -122,6 +123,10 @@ nav li:first-child{
     animation: 10s slide infinite linear;
 }
 
+.color1{
+    background-color: #fdd2d8;
+    padding: 15px 15px;
+}
 
 .container {
     display: grid;
