@@ -126,6 +126,8 @@ nav li:first-child{
 .color1{
     background-color: #fdd2d8;
     padding: 15px 15px;
+    box-shadow: 6px 6px 8px rgba(229, 147, 168, 0.699);
+    border-radius: 10px;
 }
 
 .container {
