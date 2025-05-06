@@ -5,11 +5,9 @@
 
 
 body{
-    background-image: url(homeimg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    min-height: 100vh;
+    background-color: #fce9ee;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
 }
 
 
@@ -129,60 +127,42 @@ nav li:first-child{
 
 
 .info{
-    position: absolute;
-    bottom: -950px;
-    right:40px;
+    align-items: center;
 }
 
 .bookingPolicy{
     width: 300px;
     margin: auto;
-    background-color: #F4B4BB;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    background-color: #fccdd3;
+    padding: 20px 20px 20px;
     text-align: center;
-    box-shadow: 0 3px 6px 0 #DCB8BF, 0 1px 5px 0 #DCB8BF;
-    
+    box-shadow: 0 3px 20px 0 #e2a3b0ab;
 }
 
 
 .latePolicy{
     width: 300px;
     margin: auto;
-    background-color: #F4B4BB;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    background-color: #fccdd3;
+    padding: 20px 20px 20px;
     text-align: center;
-    box-shadow: 0 3px 6px 0 #DCB8BF, 0 1px 5px 0 #DCB8BF;
-
-    
+    box-shadow: 0 3px 20px 0 #e2a3b0ab;
 }
 
 .gracePolicy{
     width: 300px;
     margin: auto;
-    background-color: #F4B4BB;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    background-color: #fccdd3;
+    padding: 20px 20px 20px;
     text-align: center;
-    box-shadow: 0 3px 6px 0 #DCB8BF, 0 1px 5px 0 #DCB8BF;
-    
+    box-shadow: 0 3px 20px 0 #e2a3b0ab;
 }
 
 .reminderPolicy{
     width: 300px;
     margin: auto;
-    background-color: #F4B4BB;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    background-color: #fccdd3;
+    padding: 20px 20px 20px;
     text-align: center;
-    box-shadow: 0 3px 6px 0 #DCB8BF, 0 1px 5px 0 #DCB8BF;
+    box-shadow: 0 3px 20px 0 #e2a3b0ab;
 }
