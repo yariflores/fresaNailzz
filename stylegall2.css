@@ -14,6 +14,7 @@ body{
 
 nav{
     background-color: rgb(253, 208, 219);
+    height: 10.6%;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -143,7 +144,6 @@ nav li:first-child{
 .card__img {
     width: 350px;
     height: 350px;
-    border-radius: 1.5rem;
 }
 
 /* Data overlay styling */
