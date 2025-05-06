@@ -6,16 +6,10 @@
 
 body{
     min-height: 100vh;
-    background-image: url(homepage1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #fce9ee;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
-
-
-
-
 
 
 nav{

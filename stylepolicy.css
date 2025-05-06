@@ -1,48 +1,133 @@
-body{
-    background-image: url(newpolicy2.png);
-    background-repeat: no-repeat;
-    font-family: "Inconsolata", monospace;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 136.5;
+*{
+    margin:0;
+    padding: 0;
 }
 
-.policylogo{
-    position: absolute;
-    top: 100px;
-    right: 70;
+
+body{
+    min-height: 100vh;
+    background-image: url(homepage1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
+
+
+nav{
+    background-color: rgb(253, 208, 219);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+}
+
+nav li{
+    height: 50px;
+}
+
+
+nav a{
+    height: 100%;
+    padding: 0 30px ;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(247, 99, 153);
+}
+
+nav a:hover{
+    background-color: #ffacc5;
+}
+
+
+nav li:first-child{
+    margin-right: auto;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index:999 ;
+    background-color:rgb(249, 205, 205,0.2) ;
+    backdrop-filter: blur(10px);
+    box-shadow: -4px 0 8px #eea7ad;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.sidebar li{
+    width: 100%;
+}
+
+.sidebar a{
+    width: 100%;
+
+}
+
+.menu-button{
+    display: none;
+}
+
+@media (max-width:800px) {
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+
+}
+
+@media (max-width:400px) {
+    .sidebar{
+        width: 100%;
+    }
+}
+
 
 .button{
-    position: absolute;
-    right:4px;
+    position: sticky;
     top: 35%;
 }
 
 .button1{
-    background-color: #FBDFDD;
+    background-color: #ffcdda;
     border: none;
-    color: #f778ab;
+    color: rgb(247, 99, 153);
     padding: 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 13px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 12px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    box-shadow: 3px 2px 12px  #ffffff, 0 1px 5px 0 #ff0033;
+    border-radius: 18px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    box-shadow: 3px 2px 12px  #e5a5b5, 0 1px 5px 0 #ffb6c5;
 }
 
 .button1:hover{
-    background-color: #f5e8e8;
+    background-color: #ffacc5;
 }
+
+
 
 .info{
     position: absolute;
