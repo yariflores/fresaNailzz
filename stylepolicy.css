@@ -137,3 +137,10 @@ nav li:first-child{
     box-shadow: 0 3px 10px 0 #e6aeb9ab;
 }
 
+
+@media screen and (min-width: 768px ) {
+    .policy1{
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 1.5rem ;
+    }
+}

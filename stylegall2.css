@@ -125,7 +125,7 @@ nav li:first-child{
 
 .color1{
     background-color: #fdd2d8;
-    padding: 15px 15px;
+    padding: 10px 10px;
     box-shadow: 6px 6px 8px rgba(229, 147, 168, 0.699);
     border-radius: 10px;
 }
@@ -133,13 +133,13 @@ nav li:first-child{
 .container {
     display: grid;
     place-items: center;
-    margin-inline: 1.5rem;
+    margin-inline: 0rem;
     padding-block: 5rem;
 }
 
 .card__container {
     display: grid;
-    row-gap: 3.5rem;
+    row-gap: 2rem;
 }
 
 .card__article {
@@ -149,7 +149,7 @@ nav li:first-child{
 
 /* Image styling */
 .card__img {
-    width: 350px;
+    width: 340px;
     height: 350px;
 }
 
@@ -215,6 +215,31 @@ nav li:first-child{
         overflow: initial;
     }
 }
+
+@media screen and (min-width: 768px ) {
+    .card__container{
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 1.5rem ;
+    }
+}
+
+@media screen and (min-width: 1120px ) {
+    .container{
+        height: 100vh;
+    }
+
+    .card__container{
+        grid-template-columns: repeat(4,1fr);
+        column-gap: 2rem ;
+    }
+
+    .card__img{
+        width: 400px;
+        height: 400px;
+
+    }
+}
+
 
 
 
