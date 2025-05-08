@@ -96,6 +96,7 @@ nav li:first-child{
 }
 
 
+
 .button{
     position: sticky;
     top: 35%;
@@ -123,7 +124,6 @@ nav li:first-child{
 .button1:hover{
     background-color: #ffacc5;
 }
-
 
 
 .info{
