@@ -123,10 +123,16 @@ nav li:first-child{
     animation: 10s slide infinite linear;
 }
 
+.some1{
+    background-color: rgb(253, 208, 219);
+    padding: 30px 30px ;
+    box-shadow: 6px 6px 8px #e593a8b2;
+}
+
 .color1{
-    background-color: #fdd2d8;
+    background-color: #ffc0b54d;
     padding: 10px 10px;
-    box-shadow: 6px 6px 8px rgba(229, 147, 168, 0.699);
+    box-shadow: 6px 6px 8px rgba(228, 163, 179, 0.404);
     border-radius: 10px;
 }
 
@@ -156,9 +162,9 @@ nav li:first-child{
 /* Data overlay styling */
 .card__data {
     width: 280px;
-    background-color:#eeb4bc;  /*   var(--container-color)*/
-    padding: 1.5rem 2rem;
-    box-shadow: 0 8px 24px hsla(340, 62%, 58%, 0.8);
+    background-color:#f7c6c6cc;  /*   var(--container-color)*/
+    padding: 1.5rem 1rem;
+    box-shadow: 0 8px 24px hsla(23, 49%, 81%, 0.8);
     border-radius: 1rem;
     position: absolute;
     bottom: -9rem;
