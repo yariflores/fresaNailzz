@@ -6,7 +6,8 @@
 
 body{
     min-height: 100vh;
-    background-color: #fce9ee;
+    background-image: url(homepg1.png);
+    background-size: cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
@@ -162,7 +163,7 @@ nav li:first-child{
 /* Data overlay styling */
 .card__data {
     width: 280px;
-    background-color:#f7c6c6cc;  /*   var(--container-color)*/
+    background-color:#eec8c8cc;  /*   var(--container-color)*/
     padding: 1.5rem 1rem;
     box-shadow: 0 8px 24px hsla(23, 49%, 81%, 0.8);
     border-radius: 1rem;

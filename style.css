@@ -96,7 +96,12 @@ nav li:first-child{
     }
 }
 
+.back1{
+    background-image: url(homepg1.png);
+    padding: 100px 100px ;
+    font-family: ; 
 
+}
 .button{
     position: sticky;
     top: 35%;
