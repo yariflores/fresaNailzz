@@ -96,12 +96,7 @@ nav li:first-child{
     }
 }
 
-.back1{
-    background-image: url(homepg1.png);
-    padding: 100px 100px ;
-    font-family: ; 
 
-}
 .button{
     position: sticky;
     top: 35%;
@@ -130,3 +125,26 @@ nav li:first-child{
     background-color: #ffacc5;
 }
 
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+
+
+.logos {
+    overflow: hidden;
+    white-space: nowrap; 
+    padding: 60px 0 ;
+    
+}
+
+.logos-slide{
+    display:inline-block ;
+    animation: 10s slide infinite linear;
+}
