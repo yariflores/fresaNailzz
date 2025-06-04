@@ -157,11 +157,9 @@ nav li:first-child{
     font-style: 40px;
     line-height: 1.6;
     max-width: 1300px; 
+    max-height: 800%;
     margin: auto; 
-    padding: 30px; 
+    padding: 50px; 
     border-radius: 20px;
     color: #df6287;
-}
-.nail10{
-    float: right;
 }
