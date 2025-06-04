@@ -152,8 +152,14 @@ nav li:first-child{
 .aboutme{
     padding: 80px;
     background-color:#ffc4d4;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: large;
+    font-family: Berkshire Swash , serif;
+    font-weight: lighter;
+    font-style: 40px;
+    line-height: 1.6;
+    max-width: 1300px; 
+    margin: auto; 
+    padding: 30px; 
+    border-radius: 20px;
     color: #df6287;
 }
 .nail10{
